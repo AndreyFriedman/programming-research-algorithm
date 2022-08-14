@@ -3,8 +3,6 @@
 from flask import render_template, request, redirect
 from algo_flask import app
 from algo_research import algorithm
-from algo_research.algo_research.algorithm import algorithm
-
 
 users = [["", "M1"],
          ["J1", ""]]
