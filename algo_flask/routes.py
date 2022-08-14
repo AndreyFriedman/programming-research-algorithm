@@ -1,8 +1,8 @@
-import random
+
 
 from flask import render_template, request, redirect
-import algorithm
 from algo_flask import app
+from algo_research import algorithm
 
 users = [["", "M1"],
          ["J1", ""]]

@@ -1,6 +1,8 @@
 flask_example/algo_flask/__pycache__/*
 flask_example/algo_flask/app.log
 flask_example/app.log
-.idea/vcs.xml
+.idea/*
 __pycache__/*
 app.log
+vanv/*
+algo_flask/__pycache__/
