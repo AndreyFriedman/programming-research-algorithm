@@ -351,34 +351,5 @@ if __name__ == "__main__":
     print("{} failures, {} tests".format(failures, tests))
     unittest.main()
 
-    natun0 = [["", "M1", "M2", "M3", "M4"],
-              ["J1", 14, 6, 8, 20],
-              ["J2", 7, 4, 11, 20],
-              ["J3", 3, 21, 5, 20],
-              ["J4", 1, 1, 5, 20]]
-
-    natun2 = [["", "M1", "M2"],
-              ["J1", 14, 6],
-              ["J2", 7, 4]]
-
-    natun3 = [["", "M1"],
-              ["J1", 14]]
-
-    natun4 = [[""]]
-
-    natun5 = [["", "M1", "M2", "M3"],
-              ["J1", 14, 60, 80],
-              ["J2", 7, 40, 110],
-              ["J3", 3, 210, 50]]
-
-    natun6 = [["", "M1"],
-              ["J1", 14],
-              ["J2", 7],
-              ["J3", 3]]
-
-    natun7 = [["", "M1", "M2", "M3"],
-              ["J1", 14, 6, 8]]
-
     logging.disable(logging.NOTSET)
-    # print(initialization(natun4))
-    print(unrelated_parallel_machine_scheduling(natun0))
+
