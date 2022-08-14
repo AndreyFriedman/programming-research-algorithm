@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <title>Answer</title>
+     </head>
+     <body>
+          <table border="1">
+               <thead>
+                     <th>
+                         <input type="text" name="Machine" value="Machine">
+                     </th>
+                     <th>
+                         <input type="text" name="Job" value="Job">
+                     </th>
+               </thead>
+               {% for answer in answers%}
+                    <tr>
+                         <td>
+                              {{answer}}
+                         </td>
+                         <td>
+                              {{answers[answer]}}
+                         </td>
+                    </tr>
+               {%endfor%}
+          </table>
+          <button> <a href="/return/">return</a></button>
+     </body>
+</html>
