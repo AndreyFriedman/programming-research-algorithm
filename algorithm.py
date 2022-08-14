@@ -3,12 +3,8 @@ import copy
 import doctest
 import logging
 import unittest
-import pandas as pd
 import random
-import numpy as np
-from itertools import compress
 import math
-from flask_example import app
 
 InitialTemp = 10000
 LastTemp = 0.9

@@ -2,7 +2,7 @@ import random
 
 from flask import render_template, request, redirect
 import algorithm
-from flask_example import app
+from algo_flask import app
 
 users = [["", "M1"],
          ["J1", ""]]
@@ -48,7 +48,7 @@ def hello_world_2():
             # mat[i][j] = int(Everything[counter])
             counter = counter + 1
     print(mat)
-    answers = new.unrelated_parallel_machine_scheduling(mat, 0)
+    answers = algorithm.unrelated_parallel_machine_scheduling(mat, 0)
 
     print(answers)
     print(answers["M1"])
